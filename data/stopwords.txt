@@ -1056,3 +1056,6 @@ terão
 teria
 teríamos
 teriam
+http
+pra
+https
