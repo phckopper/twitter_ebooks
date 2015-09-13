@@ -94,9 +94,9 @@ module Ebooks
       text.configure do
         #set :multiplier, 2
         #set :upper_case, 3
-        #set :long_words, 2
-        #set :long_words_threshold, 15
-        #set :vowels, 1                     # => default: 0 = not considered
+        set :long_words, 2
+        set :long_words_threshold, 15
+        set :vowels, 1                     # => default: 0 = not considered
         #set :consonants, 5                 # => default: 0 = not considered
         #set :ignore_case, true             # => default: false
         set :word_pattern, /(?<!@)(?<=\s)[\w']+/           # => default: /\w+/
